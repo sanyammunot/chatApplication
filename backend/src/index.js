@@ -12,14 +12,14 @@ import messageRoutes from "./routes/message.route.js";
 import { app, server } from "./lib/socket.js";
 
 dotenv.config();
-
+const CLIENT_URL = "https://chatapplication-frontend-z99n.onrender.com";
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: CLIENT_URL || "http://localhost:5173",
     credentials: true,
 }));
 
