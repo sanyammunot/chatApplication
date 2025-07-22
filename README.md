@@ -52,6 +52,7 @@ It is designed using a clean architecture and modern tech stack that ensures per
 ---
 
 ## 📁 Project Structure
+```
 chatApplication/
 ├── client/ # Frontend React application
 │ ├── public/ # Static assets (favicon, index.html, etc.)
@@ -72,7 +73,7 @@ chatApplication/
 │ └── package.json # Backend dependencies and scripts
 │
 └── README.md # Project documentation
-
+```
 
 ## 🧑‍💻 Usage Guide
 
