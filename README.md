@@ -33,7 +33,7 @@ It is designed using a clean architecture and modern tech stack that ensures per
 
 ### 📦 Frontend
 - **React** – JavaScript library for building UIs
-- **TypeScript** – Type-safe JavaScript
+- **Javascript** – Programming language for application logic
 - **Tailwind CSS** – Utility-first CSS framework
 - **Socket.io-client** - Real-time client-side communication
 
