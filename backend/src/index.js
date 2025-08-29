@@ -12,7 +12,7 @@ import messageRoutes from "./routes/message.route.js";
 import { app, server } from "./lib/socket.js";
 
 dotenv.config();
-const CLIENT_URL = "https://chatapplication-frontend-z99n.onrender.com";
+const CLIENT_URL = "https://chat-application-tan-one.vercel.app";
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
