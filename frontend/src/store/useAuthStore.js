@@ -87,7 +87,7 @@ export const useAuthStore = create((set, get) => ({
         if(!authUser || get().socket?.connected)
             return ;
         const socket = io("https://chatapp-8vyo.onrender.com", {
-            withCredentials: true,
+            //withCredentials: true,
             query: {
                 userId: authUser._id,
             },
